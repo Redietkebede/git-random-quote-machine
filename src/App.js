@@ -39,7 +39,7 @@ function App() {
       <header className="App-header" style={{ backgroundColor: themColor }}>
         <div id="quote-box" style={{ color: themColor }}>
           
-          <p id="text">"{randomNumber},{quote}"</p>
+          <p id="text">{randomNumber},"{quote}"</p>
           <h4 id="author">- {author}</h4>
           <a
             style={{ backgroundColor: themColor }}
