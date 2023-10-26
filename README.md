@@ -1,1 +1,1 @@
-Demo: https://github.com/Redietkebede/git-random-quote-machine.git
+## [Random Quote Machine]( https://github.com/Redietkebede/git-random-quote-machine.git)
