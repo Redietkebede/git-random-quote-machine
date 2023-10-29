@@ -1,3 +1,1 @@
-## [Random Quote Machine][def]
-
-[def]: http://localhost:3001/Redietkebede/git-random-quote-machine.git
+## [Random Quote Machine](https://github.com/Redietkebede/git-random-quote-machine.git)
