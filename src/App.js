@@ -9,7 +9,6 @@ function App() {
     "Life isn’t about getting and having, it’s about giving and being."
   );
   const [author, setAuthor] = useState("Kevin Kruse");
-  const [randomNumber, setRandomNumber] = useState(0);
   const [quotesArray, setQuotesArray] = useState(null);
   const [themColor, setThemColor] = useState("#282c34");
 
@@ -27,7 +26,6 @@ function App() {
   const getRandomQuote = () => {
     if (quotesArray && quotesArray.length > 0) {
       let randomInteger = Math.floor(quotesArray.length * Math.random());
-      setRandomNumber(randomInteger);
       setThemColor(ColorArr[Math.floor(ColorArr.length * Math.random())]);
       setQuote(quotesArray[randomInteger].quote);
       setAuthor(quotesArray[randomInteger].author);
@@ -38,8 +36,7 @@ function App() {
     <div className="App">
       <header className="App-header" style={{ backgroundColor: themColor }}>
         <div id="quote-box" style={{ color: themColor }}>
-          
-          <p id="text">{randomNumber},"{quote}"</p>
+          <p id="text">"{quote}"</p>
           <h4 id="author">- {author}</h4>
           <a
             style={{ backgroundColor: themColor }}
@@ -50,7 +47,11 @@ function App() {
           >
             Tweet
           </a>
-          <button style={{backgroundColor: themColor}} id="new-quote" onClick={() => getRandomQuote()}>
+          <button
+            style={{ backgroundColor: themColor }}
+            id="new-quote"
+            onClick={() => getRandomQuote()}
+          >
             New Quote
           </button>
         </div>
