@@ -1,3 +1,3 @@
 ## [Random Quote Machine][def]
 
-[def]: https://github.io/Redietkebede/git-random-quote-machine.git
+[def]: https://github.com/Redietkebede/git-random-quote-machine.git
