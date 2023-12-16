@@ -6,9 +6,9 @@ let quoteData =
   "https://gist.githubusercontent.com/natebass/b0a548425a73bdf8ea5c618149fe1fce/raw/f4231cd5961f026264bb6bb3a6c41671b044f1f4/quotes.json";
 function App() {
   const [quote, setQuote] = useState(
-    "Life isn’t about getting and having, it’s about giving and being."
+    "Strive not to be a success, but rather to be of value."
   );
-  const [author, setAuthor] = useState("Kevin Kruse");
+  const [author, setAuthor] = useState("Albert Einstein");
   const [quotesArray, setQuotesArray] = useState(null);
   const [themColor, setThemColor] = useState("#282c34");
 
